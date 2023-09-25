@@ -14,7 +14,7 @@
   there is a several ways for programmers to make and compile and reviwe each code they are programming in linux system .
   1. the simple way and its by using `gcc <file name > ` this command creating for us output file that contains the results .
   2. the Risc-V toolchain witch is not only provide compiler but also have several command that can be useful .
-        * risc-v gcc compiler use the below commands :
+    * risc-v gcc compiler use the below commands :
           `riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o <object filename> <C filename>`
           `riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o <object filename> <C filename>` 
       
