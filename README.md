@@ -9,7 +9,8 @@
   - [Workshop results](###Workshop-results)
 - [Day 2](##Day2)
    - [Introduction to Application Binary Interface (ABI)](###introduction-Application-Binary-Interface-(ABI)) 
-    
+ -[Day 3](##Day3)
+    -[TL-Verilog and Makership](###TL-Verilog-and-Makership)
 ## Day 1
   ### introduction-to-risc-v-isa
   The RISC-V instruction set architecture (ISA) is is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. Unlike most other ISA designs, RISC-V is provided under royalty-free open-source licenses
@@ -77,3 +78,5 @@ the image below contains the `main` code and the `load`
 and then the sum will be :
 
 <img src="risc-v/1to9results.png">
+## Day 3
+### TL-Verilog and Makership
