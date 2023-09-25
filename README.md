@@ -13,6 +13,6 @@
   ### RISC-V software toolchain 
   there is a several ways for programmers to make and compile and reviwe each code they are programming in linux systems  
        1. the simple way and its by using `gcc <file name > ` this command creating for us output file that contains the results 
-       2. the Risc-V toolchain 
+         2. the Risc-V toolchain 
       
 
