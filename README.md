@@ -42,3 +42,13 @@
       then we compiled it in the simple way
     
       <img src="risc-v/c program sum results.png">
+
+      the assembly code was
+
+    <img src="risc-v/assm_main.png">
+
+    and if we run the `-Ofast` option of the risc-v gcc compiler we will have
+    
+    <img src="risc-v/assm_mainf.png">
+    
+    
