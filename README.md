@@ -5,7 +5,7 @@
 # Table of Contents
 - [Day1](##Day1) 
   - [Introduction to RISC-V ISA](###introduction-to-risc-v-isa)
-  - [RISC-V software toolchain](###RISC-V software toolchain)
+  - [RISC-V software toolchain](###RISC-V-software-toolchain)
 
 ## Day 1
   ### introduction-to-risc-v-isa
