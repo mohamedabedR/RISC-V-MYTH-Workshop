@@ -53,9 +53,9 @@
 
     and if we use `spike`
     
-    <img src="risc-v/1to9results.png">
+    <img src="risc-v/runsigned.png">
 
-    <img src="risc-v/1to9main&load.png">
+    
 
     
     
