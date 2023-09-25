@@ -36,4 +36,4 @@
 
      ### Workshop results
       First we programmed a C-code that give us the sum from 1 to n 
-      (c program sum.png)
+      (risc-v/c program sum.png)
