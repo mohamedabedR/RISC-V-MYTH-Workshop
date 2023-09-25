@@ -25,5 +25,12 @@
    * To view assembly code use the below command,
     
      `riscv64-unknown-elf-objdump -d <object filename>`
-      
+
+    * To use SPIKE simualtor to run risc-v obj file use the below command,
+  
+    `spike pk <object filename>`
+    
+    To use SPIKE as debugger
+    
+    `spike -d pk <object Filename>` with degub command as `until pc 0 <pc of your choice>`  
 
