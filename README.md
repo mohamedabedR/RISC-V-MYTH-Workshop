@@ -21,5 +21,9 @@
       `riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o <object filename> <C filename>`
      
       also it have more options for `-mabi` and `-march`
+
+   * To view assembly code use the below command,
+    
+    `riscv64-unknown-elf-objdump -d <object filename>`
       
 
