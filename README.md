@@ -64,5 +64,7 @@
     
   ### introduction Application Binary Interface (ABI)    
   
-    
+     an application binary interface (ABI) is an interface between two binary program modules. Often, one of these modules is a library or operating system facility, and the other is a program that is being run by a user.
+
+An ABI defines how data structures or computational routines are accessed in machine code, which is a low-level, hardware-dependent format
     
