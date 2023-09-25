@@ -35,5 +35,6 @@
     `spike -d pk <object Filename>` with degub command as `until pc 0 <pc of your choice>`
 
      ### Workshop results
-      First we programmed a C-code that give us the sum from 1 to n 
-      ![c program sum](risc-v/c program sum.png)
+      First we programmed a C-code that give us the sum from 1 to n
+    
+      (risc-v/c program sum.png)
