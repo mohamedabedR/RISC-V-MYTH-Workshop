@@ -64,7 +64,6 @@
     
   ### introduction Application Binary Interface (ABI)    
   
-an application binary interface (ABI) is an interface between two binary program modules. Often, one of these modules is a library or operating system facility, and the other is a program that is being run by a user.
+An Application Binary Interface (ABI) represents a collection of regulations that the Operating System upholds for a particular computing architecture. Consequently, the Linker is responsible for transforming relocatable machine code into absolute machine code by adhering to the ABI interface that aligns with the given machine's architecture.
 
-An ABI defines how data structures or computational routines are accessed in machine code, which is a low-level, hardware-dependent format
-    
+The system call interface serves as the means through which an application program can interact with architecture-specific registers. In the context of RISC-V architecture, which encompasses 32 or 64 registers, a predefined table outlines the calling convention assigned to these registers, offering application programmers a structured approach for their utilization.
