@@ -38,3 +38,7 @@
       First we programmed a C-code that give us the sum from 1 to n
     
       <img src="risc-v/c program sum.png">
+
+      then we compiled it in the simple way
+    
+      <img src="risc-v/c program sum results.png">
