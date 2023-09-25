@@ -69,3 +69,11 @@ An Application Binary Interface (ABI) represents a collection of regulations tha
 The system call interface serves as the means through which an application program can interact with architecture-specific registers. In the context of RISC-V architecture, which encompasses 32 or 64 registers, a predefined table outlines the calling convention assigned to these registers, offering application programmers a structured approach for their utilization.
 
 <img src="risc-v/regnames.png">
+
+### Workshop results
+the image below contains the `main` code and the `load`
+<img src="risc-v/1to9main&load.png">
+
+and then the sum will be :
+
+<img src="risc-v/1to9results.png">
