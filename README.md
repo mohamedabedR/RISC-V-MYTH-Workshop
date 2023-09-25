@@ -11,8 +11,8 @@
   ### introduction-to-risc-v-isa
   The RISC-V instruction set architecture (ISA) is is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. Unlike most other ISA designs, RISC-V is provided under royalty-free open-source licenses
   ### RISC-V software toolchain 
-  there is a several ways for programmers to make and compile and reviwe each code they are programming in linux systems  :
-      1. the simple way and its by using `gcc <file name > ` this command creating for us output file that contains the results \n
+  there is a several ways for programmers to make and compile and reviwe each code they are programming in linux systems  :\n
+      1. the simple way and its by using `gcc <file name > ` this command creating for us output file that contains the results 
       2. the Risc-V toolchain 
       the risc-v tool
       
