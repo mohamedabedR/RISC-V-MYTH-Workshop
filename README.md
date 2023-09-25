@@ -26,7 +26,7 @@
     
      `riscv64-unknown-elf-objdump -d <object filename>`
 
-    * To use SPIKE simualtor to run risc-v obj file use the below command,
+  * To use SPIKE simualtor to run risc-v obj file use the below command,
   
     `spike pk <object filename>`
     
