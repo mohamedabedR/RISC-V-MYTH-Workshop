@@ -16,9 +16,9 @@
   2. the Risc-V toolchain witch is not only provide compiler but also have several command that can be useful .
    * risc-v gcc compiler use the below commands:
      
-    `riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o <object filename> <C filename>` 
+     `riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o <object filename> <C filename>` 
     
-     `riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o <object filename> <C filename>` 
+      `riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o <object filename> <C filename>` 
     also it have more options for `-mabi` and `-march`
       
 
