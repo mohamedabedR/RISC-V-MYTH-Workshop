@@ -50,5 +50,12 @@
     and if we run the `-Ofast` option of the risc-v gcc compiler we will have
     
     <img src="risc-v/assm_mainf.png">
+
+    and if we use `spike`
+    
+    <img src="risc-v/1to9results.png">
+
+    <img src="risc-v/1to9main&load.png">
+
     
     
