@@ -9,7 +9,7 @@
     - [Workshop results](###Workshop-results)
 - [Day 2](##Day2)
      - [Introduction to Application Binary Interface (ABI)](###introduction-Application-Binary-Interface-(ABI)) 
- -[Day 3](##Day3)
+-[Day 3](##Day3)
     - [TL-Verilog and Makership](###TL-Verilog-and-Makership)
     - [Combinational logic](###Combinational-logic)
     - [Sequential logic](###Sequential-logic)
