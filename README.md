@@ -18,6 +18,7 @@
  - [Day 4-5](##Day4-5)
     - [Fetch](###Fetch)
     -  [Decode](###Decode)
+    - [Register File Read and write](###Register-File-Read-and-write)
 ## Day 1
   ### introduction-to-risc-v-isa
   The RISC-V instruction set architecture (ISA) is is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. Unlike most other ISA designs, RISC-V is provided under royalty-free open-source licenses
@@ -136,7 +137,22 @@ This part of code and design maden to differentiate between the diffrent types o
 
 <img src="Risc-v micro/decode4.png">
 
+### Register File Read and write
+Inputs:
+  * Read_Enable   - Enable signal to perform read operation
+  * Read_Address1 - Address1 from where data has to be read 
+  * Read_Address2 - Address2 from where data has to be read 
+  * Write_Enable  - Enable signal to perform write operation
+  * Write_Address - Address where data has to be written
+  * Write_Data    - Data to be written at Write_Address
 
+Outputs:
+  * Read_Data1    - Data from Read_Address1
+  * Read_Data2    - Data from Read_Address2
+
+<img src="Risc-v micro/regrd1.png">
+
+<img src="Risc-v micro/regwr.png">
 
 
 
