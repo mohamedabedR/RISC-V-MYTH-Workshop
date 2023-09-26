@@ -19,10 +19,10 @@
    - [Fetch](###Fetch)
    -  [Decode](###Decode)
    - [Register File Read and write](###Register-File-Read-and-write)
-   -  [Execute](###Execute)
-   -  [Control Logic](###Control-Logic)
-   -  [Pipelining the CPU](###Pipelining-the-CPU)
-   -  [Load and store instructions and memory](###Load-and-store-instructions-and-memory)
+   -  [Execute](###execute)
+   -  [Control Logic](###control-Logic)
+   -  [Pipelining the CPU](###pipelining-the-CPU)
+   -  [Load and store instructions and memory](###load-and-store-instructions-and-memory)
 - [Acknowledgements](#acknowledgements)
 
 ## Day 1
