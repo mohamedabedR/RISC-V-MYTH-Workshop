@@ -15,7 +15,7 @@
   - [Sequential logic](###Sequential-logic)
   - [Pipelined logic](###Pipelined-logic)
   - [Validity](###Validity)
- - [Day 4-5](##Day4-5)
+- [Day 4-5](##Day4-5)
    - [Fetch](###Fetch)
    -  [Decode](###Decode)
    - [Register File Read and write](###Register-File-Read-and-write)
