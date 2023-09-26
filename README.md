@@ -4,21 +4,27 @@
 
 # Table of Contents
 - [Day1](##Day1) 
-    - [Introduction to RISC-V ISA](###introduction-to-risc-v-isa)
-    - [RISC-V software toolchain](###RISC-V-software-toolchain)
-    - [Workshop results](###Workshop-results)
+  - [Introduction to RISC-V ISA](###introduction-to-risc-v-isa)
+  - [RISC-V software toolchain](###RISC-V-software-toolchain)
+  - [Workshop results](###Workshop-results)
 - [Day 2](##Day2)
-    - [Introduction to Application Binary Interface (ABI)](###introduction-Application-Binary-Interface-(ABI)) 
+  - [Introduction to Application Binary Interface (ABI)](###introduction-Application-Binary-Interface-(ABI)) 
 - [Day 3](##Day3)
-    - [TL-Verilog and Makership](###TL-Verilog-and-Makership)
-    - [Combinational logic](###Combinational-logic)
-    - [Sequential logic](###Sequential-logic)
-    - [Pipelined logic](###Pipelined-logic)
-    - [Validity](###Validity)
+  - [TL-Verilog and Makership](###TL-Verilog-and-Makership)
+  - [Combinational logic](###Combinational-logic)
+  - [Sequential logic](###Sequential-logic)
+  - [Pipelined logic](###Pipelined-logic)
+  - [Validity](###Validity)
  - [Day 4-5](##Day4-5)
-    - [Fetch](###Fetch)
-    -  [Decode](###Decode)
-    - [Register File Read and write](###Register-File-Read-and-write)
+  - [Fetch](###Fetch)
+  -  [Decode](###Decode)
+  - [Register File Read and write](###Register-File-Read-and-write)
+  -  [Execute](###Execute)
+  -  [Control Logic](###Control-Logic)
+  -  [Pipelining the CPU](###Pipelining-the-CPU)
+  -  [Load and store instructions and memory](###Load-and-store-instructions-and-memory)
+- [Acknowledgements](#acknowledgements)
+
 ## Day 1
   ### introduction-to-risc-v-isa
   The RISC-V instruction set architecture (ISA) is is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. Unlike most other ISA designs, RISC-V is provided under royalty-free open-source licenses
@@ -159,6 +165,26 @@ Outputs:
 
 <img src="Risc-v micro/alu1.png">
 
+### Control Logic
+
+<img src="Risc-v micro/branch.png">
+
+### Pipelining the CPU
+similar to the way we made the simple calculator to stages we had a 3 stages CPU some Images 
+
+<img src="pipelined cpu/start&valid.png">
+
+<img src="pipelined cpu/sourceupdate.png">
+
+<img src="pipelined cpu/branchcorrec.png">
+
+### Load and store instructions and memory
+
+<img src="pipelined cpu/load2.png">
+
+<img src="pipelined cpu/loadstore-test.png">
 
 
-
+# Acknowledgements
+- [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
+- [Steve Hoover](https://github.com/stevehoover), Founder, Redwood EDA
