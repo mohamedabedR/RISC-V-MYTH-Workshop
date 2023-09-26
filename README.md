@@ -22,7 +22,7 @@
 ## Day 1
   ### introduction-to-risc-v-isa
   The RISC-V instruction set architecture (ISA) is is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. Unlike most other ISA designs, RISC-V is provided under royalty-free open-source licenses
-  ### RISC-V software toolchain 
+  ### RISC-V software toolchain
   there is a several ways for programmers to make and compile and reviwe each code they are programming in linux system .
   1. the simple way and its by using `gcc <file name > ` this command creating for us output file that contains the results .
   2. the Risc-V toolchain witch is not only provide compiler but also have several command that can be useful .
@@ -71,7 +71,7 @@
     
 ## Day 2
     
-  ### introduction Application Binary Interface (ABI)    
+  ### introduction Application Binary Interface (ABI)  
   
 An Application Binary Interface (ABI) represents a collection of regulations that the Operating System upholds for a particular computing architecture. Consequently, the Linker is responsible for transforming relocatable machine code into absolute machine code by adhering to the ABI interface that aligns with the given machine's architecture.
 
@@ -114,14 +114,14 @@ by divide the code to stages we can run more than one command in the same time w
 ## Day 4-5
 Now we can start buliding the RISC-V CPU
 
-### Fetch 
+### Fetch
 the fetch will contain 2 main part :
 * The PC that holds the address of next instrtion
 * IM Holds the set of instructions
 
 <img src="Risc-v micro/instr.png">
 
-### Decode 
+### Decode
 This part of code and design maden to differentiate between the diffrent types of Instructions , there is 6 types of instructions 
  * R-type - Register 
  * I-type - Immediate
@@ -155,8 +155,9 @@ Outputs:
 <img src="Risc-v micro/regwr.png">
 
 
+### Execute
 
-
+<img src="Risc-v micro/alu1.png">
 
 
 
