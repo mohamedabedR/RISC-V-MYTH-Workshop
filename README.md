@@ -18,7 +18,7 @@
 - [Day 4-5](##Day4-5)
    - [Fetch](###Fetch)
    -  [Decode](###Decode)
-   - [Register File Read and write](###Register-File-Read-and-write)
+   - [Register File Read and write](###register-File-Read-and-write)
    -  [Execute](###execute)
    -  [Control Logic](###control-Logic)
    -  [Pipelining the CPU](###pipelining-the-CPU)
