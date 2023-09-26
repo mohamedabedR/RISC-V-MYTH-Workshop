@@ -23,6 +23,7 @@
    -  [Control Logic](###control-Logic)
    -  [Pipelining the CPU](###pipelining-the-CPU)
    -  [Load and store instructions and memory](###load-and-store-instructions-and-memory)
+   -  [Codes](#codes)
 - [Acknowledgements](#acknowledgements)
 
 ## Day 1
