@@ -81,3 +81,5 @@ and then the sum will be :
 
 ## Day 3
 ### TL-Verilog and Makership
+Our workshop was basicly talkking about buliding a risc-v core so to do it we need a platform , so we used [Makerchip](https://makerchip.com/) it is a free online environment for developing high-quality integrated circuits. by using it we can code,compile,simulate and debug verilog codes . 
+This platfrom supports also TL-verilog the used language in this workshop 
