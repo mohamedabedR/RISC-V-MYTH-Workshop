@@ -12,6 +12,8 @@
  -[Day 3](##Day3)
     -[TL-Verilog and Makership](###TL-Verilog-and-Makership)
     -[Combinational logic](###Combinational-logic)
+    -[Sequential logic](###Sequential-logic)
+     
 ## Day 1
   ### introduction-to-risc-v-isa
   The RISC-V instruction set architecture (ISA) is is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. Unlike most other ISA designs, RISC-V is provided under royalty-free open-source licenses
@@ -90,7 +92,7 @@ First we will start with basic with is the Combinational logic we started with p
 
 <img src="calculator/tlvsimcalc.png">
 
-### [Sequential logic]
+### Sequential logic
 the Sequential logic is basicly the dependency of the inputs on the previous outputs of the design in our code we changed the `$val1[31:0] = rand1[31:0]` to `$val1[31:0] = >>1$out[31:0]` the `>>1` used to indactae to the previous value of any value we need
 
 <img src="calculator/tlvadvcalc.png">
