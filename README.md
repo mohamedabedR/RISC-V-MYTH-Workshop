@@ -3,11 +3,11 @@
   This repository includes all the studies and the skills that have beed gained during the [RISC-V based MYTH](https://www.vlsisystemdesign.com/riscv-based-myth/) workshop , that talking about bulding RISC-V piplined core which has support of base interger RV32I using hardware programming langauge called TL-verilog on makerchip platfor
 
 # Table of Contents
-- [Day1](##Day1) 
+- [Day 1](##day-1) 
   - [Introduction to RISC-V ISA](###introduction-to-risc-v-isa)
   - [RISC-V software toolchain](###RISC-V-software-toolchain)
   - [Workshop results](###Workshop-results)
-- [Day 2](##Day2)
+- [Day 2](##day-2)
   - [Introduction to Application Binary Interface (ABI)](###introduction-Application-Binary-Interface-(ABI)) 
 - [Day 3](##Day3)
   - [TL-Verilog and Makership](###TL-Verilog-and-Makership)
