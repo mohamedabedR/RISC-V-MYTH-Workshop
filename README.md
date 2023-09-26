@@ -90,3 +90,12 @@ First we will start with basic with is the Combinational logic we started with p
 
 <img src="calculator/tlvsimcalc.png">
 
+### [Sequential logic]
+the Sequential logic is basicly the dependency of the inputs on the previous outputs of the design in our code we changed the `$val1[31:0] = rand1[31:0]` to `$val1[31:0] = >>1$out[31:0]` the `>>1` used to indactae to the previous value of any value we need
+
+<img src="calculator/tlvadvcalc.png">
+
+
+
+
+
