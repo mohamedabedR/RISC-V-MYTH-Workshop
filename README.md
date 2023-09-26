@@ -184,6 +184,16 @@ similar to the way we made the simple calculator to stages we had a 3 stages CPU
 
 <img src="pipelined cpu/loadstore-test.png">
 
+# Codes
+
+![CPU](codes/CPU.tlv.txt)
+
+![Piplined CPU](codes/pipelinedcpu.tlv.txt)
+
+![load&sotre](codes/load&store.tlv.txt)
+
+![Final form](codes/Last.tlv.txt)
+
 
 # Acknowledgements
 - [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
