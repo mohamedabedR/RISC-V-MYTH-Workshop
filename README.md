@@ -11,6 +11,7 @@
    - [Introduction to Application Binary Interface (ABI)](###introduction-Application-Binary-Interface-(ABI)) 
  -[Day 3](##Day3)
     -[TL-Verilog and Makership](###TL-Verilog-and-Makership)
+    -[Combinational logic](###Combinational-logic)
 ## Day 1
   ### introduction-to-risc-v-isa
   The RISC-V instruction set architecture (ISA) is is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. Unlike most other ISA designs, RISC-V is provided under royalty-free open-source licenses
@@ -82,4 +83,10 @@ and then the sum will be :
 ## Day 3
 ### TL-Verilog and Makership
 Our workshop was basicly talkking about buliding a risc-v core so to do it we need a platform , so we used [Makerchip](https://makerchip.com/) it is a free online environment for developing high-quality integrated circuits. by using it we can code,compile,simulate and debug verilog codes . 
-This platfrom supports also TL-verilog the used language in this workshop 
+This platfrom supports also TL-verilog the used language in this workshop . We will be coding a basic claculator to learn TL-verilog and see how the platform works .
+
+### Combinational logic
+First we will start with basic with is the Combinational logic we started with practicing in the not gate `$out = !$in` then we moved to code simple calculator that takes 2 inputs then sum,diff,prod and qout them and the output will be chosen by mux .
+
+<img src="calculator/tlvsimcalc.png">
+
