@@ -14,7 +14,10 @@
     - [Combinational logic](###Combinational-logic)
     - [Sequential logic](###Sequential-logic)
     - [Pipelined logic](###Pipelined-logic)
-    - 
+    - [Validity](###Validity)
+  - [Day 4-5](##Day4-5)
+     - [Fetch](###Fetch)
+     -  [Decode](###Decode)
 ## Day 1
   ### introduction-to-risc-v-isa
   The RISC-V instruction set architecture (ISA) is is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. Unlike most other ISA designs, RISC-V is provided under royalty-free open-source licenses
@@ -104,6 +107,37 @@ Timing abstract powerful feature of TL-Verilog which converts a code into pipeli
 by divide the code to stages we can run more than one command in the same time witch will be very uselful to for time reduction 
 
 <img src="calculator/pipedclac.png"> 
+
+### Validity
+
+## Day 4-5
+Now we can start buliding the RISC-V CPU
+
+### Fetch 
+the fetch will contain 2 main part :
+* The PC that holds the address of next instrtion
+* IM Holds the set of instructions
+
+<img src="Risc-v micro/instr.png">
+
+### Decode 
+This part of code and design maden to differentiate between the diffrent types of Instructions , there is 6 types of instructions 
+ * R-type - Register 
+ * I-type - Immediate
+ * S-type - Store
+ * B-type - Branch (Conditional Jump)
+ * U-type - Upper Immediate
+ * J-type - Jump (Unconditional Jump)
+ Also maden to exstract some values existed in the IM like immedate etc.
+ 
+<img src="Risc-v micro/decode1.png">
+
+<img src="Risc-v micro/decode3.png">
+
+<img src="Risc-v micro/decode4.png">
+
+
+
 
 
 
