@@ -100,7 +100,9 @@ the Sequential logic is basicly the dependency of the inputs on the previous out
 
 ### Pipelined logic
 
-Timing abstract powerful feature of TL-Verilog which converts a code into pipeline stages easily. Whole code under `|pipeline` scope with stages defined by `@?`. by divide the code to stages we can run more than one command in the same time witch will be very uselful to for time reduction 
+Timing abstract powerful feature of TL-Verilog which converts a code into pipeline stages easily. Whole code under `|pipeline` scope with stages defined by `@?`. 
+by divide the code to stages we can run more than one command in the same time witch will be very uselful to for time reduction 
+
 <img src="calculator/pipedclac.png.png"> 
 
 
