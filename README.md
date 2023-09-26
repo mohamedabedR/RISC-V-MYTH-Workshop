@@ -13,7 +13,7 @@
     - [TL-Verilog and Makership](###TL-Verilog-and-Makership)
     - [Combinational logic](###Combinational-logic)
     - [Sequential logic](###Sequential-logic)
-    - [Pipelined logic] (###Pipelined-logic)
+    - [Pipelined logic](###Pipelined-logic)
     - 
 ## Day 1
   ### introduction-to-risc-v-isa
